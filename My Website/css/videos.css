@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+    display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+    }
+ main {
+     flex: 1 0 auto;
+ }
+
+.center{
+margin: auto;    
+}
+
+img{
+    display: block;
+    left: 0px;
+    right: 0px;
+    top: 150 px;
+}
+
+/* The only rule that matters */
+#video {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+
+h1 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+h1 span {
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 span a {
+  color: #fff;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.page-footer{
+  bottom: 0px;  
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+        display: inline-block;
+      border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 1;
+      -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google-plus {
+    background: #d34836;
+    color: white;
+}
+.fa-linkedin{
+    background: #0077B5;
+    color: white;
+    
+}
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+.fa-envelope{
+    background: #edb142;
+    color: white;
+   align-content: center;
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+#contentframe{
+    position: relative;
+}
+.videos{
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
